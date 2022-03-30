@@ -1,8 +1,10 @@
-# Simple LayerZero omni chain contracts
+# LayerZero - omni chain contracts
+
+Read [Whitepaper](https://layerzero.network/pdf/LayerZero_Whitepaper_Release.pdf)
 
 LayerZero enables devs to send secure messages across blockchains.
 
-"Omnichain Interoperability Protocol"
+`Omnichain Interoperability Protocol`
 
 LayerZero Endpoint has a non-reentrancy guard for both the send() and receive(), respectively. In other words, both send() and receive() can not call themselves on the same chain.
 
