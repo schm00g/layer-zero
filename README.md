@@ -1,6 +1,6 @@
 # Simple LayerZero omni chain contracts
 
-LAYERZERO ENABLES DEVELOPERS TO SEND SECURE MESSAGES ACROSS BLOCKCHAINS.
+LayerZero enables devs to send secure messages across blockchains.
 
 "Omnichain Interoperability Protocol"
 
