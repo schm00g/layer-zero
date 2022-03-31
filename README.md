@@ -1,6 +1,12 @@
 # LayerZero - omni chain contracts
 
+// TODO: add MNEMONIC to .env file
+
 Read [Whitepaper](https://layerzero.network/pdf/LayerZero_Whitepaper_Release.pdf)
+
+LayerZero relies on two parties to transfer messages between on-chain endpoints:
+* The Oracle &
+* The Relayer
 
 LayerZero enables devs to send secure messages across blockchains.
 
@@ -92,7 +98,4 @@ npx hardhat --network fantom-testnet omniCounterPoll
 
 ### See some examples in `/contracts`  🙌
 
-Many of the example contracts make use of LayerZeroEndpointMock.sol which is a nice way to test LayerZero locally!
-
-## Most recently tested with node version `16.13.1` 
-
+test LayerZero locally using LayerZeroEndpointMock.sol
