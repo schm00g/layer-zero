@@ -1,6 +1,6 @@
 # LayerZero - omni chain contracts
 
-// TODO: add MNEMONIC to .env file
+* TODO: add MNEMONIC to .env file
 
 Read [Whitepaper](https://layerzero.network/pdf/LayerZero_Whitepaper_Release.pdf)
 
@@ -27,6 +27,8 @@ npx hardhat test
 ### NOTE: You must add a .env with a MNEMONIC that is funded on testnets !
 configure an .env file to have the values of .env.example and test deploy! (Use a real LayerZero endpoint in place of 0x0000..) 
 
+* TODO: real LayerZero [endpoints](https://layerzero.gitbook.io/docs/technical-reference/mainnet/supported-chain-ids)
+  
 # Testing Cross Chain Messages
 
 1. Deploy both OmniCounters:
